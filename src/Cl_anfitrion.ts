@@ -12,9 +12,7 @@ export default class Cl_anfitrion {
     this.acHambInv = 0;
     this.acCervInv = 0;
   
-
   }
-
   procesarInvitado(i: Cl_invitado): void {
 
     // req 2 cuantos productos en total de cada uno hay en la fiesta
@@ -31,5 +29,4 @@ export default class Cl_anfitrion {
     return this.acCervInv + this.cervAnf;
   }
 
- 
 }
